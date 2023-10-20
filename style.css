@@ -1,0 +1,118 @@
+.div1{
+    height: 250px;
+    width: 250px;
+    padding: 20px;
+    border: 5px solid #000;
+    background-color: aqua;
+    background-image: radial-gradient(circle at top,red,green,yellow);
+}
+
+.div2{
+    height: 250px;
+    width: 250px;
+    padding: 20px;
+    border: 5px solid #000;
+    background-color: aqua;
+    background-image: radial-gradient(circle,red 10% 20%,yellow 20% 40%,green 40% 60%);
+}
+
+.div3{
+    height: 250px;
+    width: 250px;
+    padding: 20px;
+    border: 5px solid #000;
+    background-color: aqua;
+    background-image: repeating-radial-gradient(circle,red 10% 20%,yellow 20% 40%,green 40% 60%);
+}
+.div31{
+    height: 250px;
+  width: 250px;
+  border: 5px solid #000;
+  background-color: red;
+  background-image: repeating-radial-gradient(red, yellow 10%, green 15%);
+}
+
+.div4{
+    height: 250px;
+    width: 250px;
+    padding: 20px;
+    border-radius: 50%;
+    border: 5px solid #000;
+    background-color: aqua;
+    background-image: conic-gradient(red 45deg, yellow 90deg,green 270deg);
+}
+.div5{
+    height: 250px;
+    width: 250px;
+    padding: 20px;
+    border-radius: 50%;
+    border: 5px solid #000;
+    background-color: aqua;
+    background-image: conic-gradient(from 90deg,red 0deg,red 90deg,yellow 90deg,yellow 180deg,green 180deg,green 270deg,blue 270deg,blue 360deg);
+
+}
+
+.div6{
+    height: 250px;
+    width: 250px;
+    padding: 20px;
+    border-radius: 50%;
+    border: 5px solid #000;
+    background-color: aqua;
+    background-image: conic-gradient(at 40% 60%,red 0deg,red 90deg,yellow 90deg,yellow 180deg,green 180deg,green 270deg,blue 270deg,blue 360deg);
+}
+
+.div7{
+    height: 250px;
+    width: 250px;
+    padding: 20px;
+    border-radius: 50%;
+    border: 5px solid #000;
+    background-color: aqua;
+    background-image: repeating-conic-gradient(red 10%,yellow 60deg 20deg);
+}
+.div71{
+    height: 250px;
+    width: 250px;
+    padding: 10px;
+    border-radius: 50%;
+    border: 5px solid #000;
+    background-color: aqua;
+    background-image: repeating-conic-gradient(red 10%,yellow 20%,blue 30%);
+}
+
+.div8{
+    height: 250px;
+    width: 250px;
+    padding: 10px;
+    border: 20px solid #000;
+    border-image: linear-gradient(rgb(0, 255, 128),rgb(48, 6, 13),rgb(186, 218, 45)) 50;
+    background-color: aqua;
+    background-image: repeating-conic-gradient(rgb(10, 78, 10) 10%,blue 60deg 20deg);
+    color: #fff;
+}
+
+.div9{
+    height: 200px;
+    width: 200px;
+    box-shadow: 5px 40px red;
+
+}
+.img1{
+    width: 100%;
+}
+.div9 .box-text1 p{
+    text-align: center;
+}
+
+.div10{
+    height: 200px;
+    width: 200px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 21px 0 rgba(0,0,0,0.20);
+}
+.img2{
+    width: 100%;
+}
+.div10 .box-text2 p{
+    text-align: center;
+}
